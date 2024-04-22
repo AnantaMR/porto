@@ -51,7 +51,7 @@
     <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row" style="background: linear-gradient(90deg, #edf7fc, #dcf0fa, #b9e2f5, #84cdee, #50b8e7);">
       <div class="navbar-brand-wrapper d-flex justify-content-center">
         <div class="navbar-brand-inner-wrapper d-flex justify-content-between align-items-center w-100" >  
-          <a class="navbar-brand brand-logo" href="index.html" style="display: inline-block; margin-right: 50px;">
+          <a class="navbar-brand brand-logo" href="{{ url('/') }}" style="display: inline-block; margin-right: 50px;">
             <img src="{{asset('admin')}}/images/cloud_logo.png" style="max-width: 30px; max-height: 30px; border-radius: 0%;" alt="logo"/>
         </a>
           <a class="navbar-brand" href="index.html">Ananta</a>
